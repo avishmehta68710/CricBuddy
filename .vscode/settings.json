@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/bin/python",
+    "json.schemas": [],
+    "python.envFile": ".env",
+    "python.autoComplete.extraPaths": [
+        "./home/project/tele.py"
+    ],
+    "python.analysis.extraPaths": [
+        "./home/project/tele.py"
+    ]
+}
+

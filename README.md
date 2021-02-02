@@ -1,2 +1,2 @@
 # CricBuddy
-Update the Cricket Scoreboard
+Updates the Cricket Scoreboard after a regular interval of 2 seconds

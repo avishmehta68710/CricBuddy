@@ -4,7 +4,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 scope = ["https://spreadsheets.google.com/feeds","https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name("Cricket Alerts-a5d7fc29cc02.json",scope)
 client = gspread.authorize(creds)
-sheet = client.open("products").sheet1
+sheet = client.open("scoreboards").sheet1
 data = sheet.get_all_records()
 pprint(data)
 
